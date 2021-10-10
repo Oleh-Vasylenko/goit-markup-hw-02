@@ -1,3 +1,4 @@
+/* my constant  color */
 :root {
   --text-color: #757575;
   --text-bold-color: #212121;
@@ -9,7 +10,7 @@
   --header-line-color: #ececec;
   --white: #fff;
 }
-
+/* .page -is basic style for tag body*/
 .page {
   font-family: 'Roboto', sans-serif;
   background-color: var(--white);
@@ -19,6 +20,7 @@
   line-height: 1.71;
   color: var(--text-color);
 }
+/* logo styles*/
 .logo {
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
@@ -31,6 +33,7 @@
 .logo-first-text {
   color: var(--accent-color);
 }
+/* nav-menu styles*/
 .site-nav-list {
   list-style: none;
   font-weight: 500;
@@ -38,6 +41,7 @@
   line-height: 1.14;
 }
 
+/*contacts menu styles*/
 .auth-nav-list {
   list-style: none;
   font-weight: 500;
@@ -48,6 +52,10 @@
 .site-nav-link {
   text-decoration: none;
   color: var(--text-bold-color);
+}
+.site-nav-link-active {
+  text-decoration: none;
+  color: var(--accent-color);
 }
 .auth-nav-link {
   text-decoration: none;
@@ -60,6 +68,7 @@
 .auth-nav-link:focus {
   color: #2196f3;
 }
+/* first section whith h1 title*/
 .section-main {
   background-color: var(--footer-color);
 }
@@ -81,7 +90,7 @@
   line-height: 1.16;
   text-align: center;
 }
-
+/* basic style for all button in page*/
 .button {
   font-family: inherit;
   font-weight: 500;
@@ -90,6 +99,9 @@
   cursor: pointer;
   background-color: var(--gray-background);
 }
+
+/* style for button "заказать услугу"*/
+
 .hero.button {
   background-color: var(--accent-color);
   color: var(--white);
@@ -106,6 +118,8 @@
   background-color: var(--hero-button-hover-color);
 }
 
+/* features section style*/
+
 .features-list {
   list-style: none;
 }
@@ -119,6 +133,9 @@
 .feature-description {
   line-height: 1.71;
 }
+
+/* we do section */
+
 .we-do-list {
   list-style: none;
 }
@@ -135,6 +152,8 @@
   font-size: 16px;
   line-height: 1.18;
 }
+
+/* footer section styles*/
 
 .footer {
   background-color: var(--footer-color);
@@ -163,6 +182,8 @@
 .footer-links:focus {
   color: var(--accent-color);
 }
+
+/*-------STYLES FOR PAGE-------portfolio.html*/
 
 .portfolio-list {
   list-style: none;
