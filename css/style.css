@@ -163,3 +163,37 @@
 .footer-links:focus {
   color: var(--accent-color);
 }
+
+.portfolio-list {
+  list-style: none;
+}
+
+.portfolio-item-title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--text-bold-color);
+}
+
+.portfolio-item-description {
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+.filter-list {
+  list-style: none;
+}
+
+.filter.button {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.62;
+  color: var(--text-bold-color);
+}
+
+.filter.button:hover,
+.filter.button:focus {
+  background-color: var(--accent-color);
+  color: var(--white);
+}
